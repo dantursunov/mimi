@@ -1,0 +1,13 @@
+<!-- FindUs -->
+<div class="container">
+    <div class="page-header" id="location">
+      <h2>Find Us.
+        <small> Our location.</small>
+      </h2>
+    </div>
+    
+    <agm-map [latitude]="latitude" [longitude]="longitude">
+      <!-- agm-map dragable marker (mapClick)="clickedLocation($event)"-->
+      <agm-marker [latitude]="latitude" [longitude]="longitude" *ngIf="locationChosen"></agm-marker>
+    </agm-map>
+</div>
