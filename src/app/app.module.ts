@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
-import { AgmCoreModule } from '@agm/core';
+import { AgmCoreModule } from '@agm/core'
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
